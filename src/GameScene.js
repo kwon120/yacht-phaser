@@ -69,7 +69,7 @@ export class GameScene extends Phaser.Scene {
       let circle = this.add.circle(250+i*50, 500, 10, 0x80ff00);
       circle.setStrokeStyle(2, 0xffffff);
     }
-
+    // nothing
     //점수 기록
     scoreBoard.fillStyle(0xf5dcb7, 1);
     scoreBoard.fillRect(650, 50, 300, 500)
